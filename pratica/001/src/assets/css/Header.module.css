@@ -1,0 +1,13 @@
+header {
+    width: 100vw;
+
+    padding: 15px 100px 15px 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    color: rgb(228, 41, 16);
+    background-color: rgb(29, 28, 28);
+}

@@ -1,0 +1,24 @@
+.tapeContainer {
+    padding: 20px 0px;
+    background-color: rgb(50, 50, 55);
+}
+
+.listContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.listContainer > li {
+    padding: 3px 8px;
+    cursor: pointer;
+}
+
+.listContainer > li:hover {
+    background-color: rgba(0, 0, 0, 0.326);
+}
