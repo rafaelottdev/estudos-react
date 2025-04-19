@@ -1,0 +1,17 @@
+.header {
+    width: 70%;
+    height: 70px;
+
+    margin: 0 auto;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: cursive, serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    background-color: rgb(223, 213, 213);
+}

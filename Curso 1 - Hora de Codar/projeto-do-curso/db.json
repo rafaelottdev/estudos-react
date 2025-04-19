@@ -1,5 +1,28 @@
 {
-  "projects": [],
+  "projects": [
+    {
+      "id": "7911",
+      "name": "Meu projeto",
+      "budget": "15000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "4ec9",
+      "name": "meu projeto 2",
+      "budget": "15000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": []
+    }
+  ],
   "categories": [
     {
       "id": "1",

@@ -1,0 +1,28 @@
+.message_box {
+    margin-bottom: 30px;
+
+    background-color: red;
+}
+
+.message_box:last-child {
+    margin-bottom: 0px;
+}
+
+.name {
+
+}
+
+.comment_container {
+    padding: 5px;
+
+    border-radius: 5px;
+
+    color: white;
+    background-color: black;
+}
+
+.comment {
+    width: 100%;
+    display: block;
+    background-color: red;
+}
