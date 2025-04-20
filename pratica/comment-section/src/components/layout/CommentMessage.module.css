@@ -1,7 +1,5 @@
 .message_box {
     margin-bottom: 30px;
-
-    background-color: red;
 }
 
 .message_box:last-child {
@@ -9,20 +7,21 @@
 }
 
 .name {
+    font-size: 1em;
+    text-transform: capitalize;
+    font-weight: bold;
 
-}
-
-.comment_container {
-    padding: 5px;
-
-    border-radius: 5px;
-
-    color: white;
-    background-color: black;
+    padding: 5px 5px 0px 0px;
 }
 
 .comment {
-    width: 100%;
     display: block;
-    background-color: red;
+
+    padding: 5px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+
+    color: black;
+    background-color: rgb(190, 190, 190);
 }

@@ -3,39 +3,42 @@ import { useState } from "react"
 import CommentSection from "./CommentSection"
 import MessageForm from "../form/MessageForm"
 
-import CommentMessage from "./CommentMessage"
-
 function Main() {
     const [name, setName] = useState('')
-    // const [comment, setComment] = useState('')
+    const [comment, setComment] = useState('')
     const [components, setComponents] = useState([])
     const [counter, setCounter] = useState(1)
-    const [n, setN] = useState('')
-    
 
     function getName(e) {
         setName(e.target.value)
     }
 
-    // function getComment(e) {
-    //     setComment(e.target.value)
-    // }
+    function getComment(e) {
+        setComment(e.target.value)
+    }
 
     function sendComment(e) {
         e.preventDefault()
 
-        setN(name)
+        const newComment = {
+            id: counter,
+            name: name,
+            comment, comment
+        }
 
-        setComponents([...components, counter])
+        setComponents([...components, newComment])
         setCounter(counter + 1)
+
+        setName('')
+        setComment('')
     }
 
     return (
         <>
             <main>
-                <CommentSection nameValue={n} /*commentValue={comment}*/ componentList={components} />
+                <CommentSection componentList={components} />
 
-                <MessageForm nameOnChange={getName} /*commentOnChange={getComment}*/ sendCommentOnClick={sendComment} />
+                <MessageForm n={name} c={comment} nameOnChange={getName} commentOnChange={getComment} sendCommentOnClick={sendComment} />
             </main>
         </>
     )
