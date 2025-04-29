@@ -1,23 +1,30 @@
 {
   "projects": [
     {
-      "id": "7911",
-      "name": "Meu projeto",
-      "budget": "15000",
+      "id": "9ad9",
+      "name": "PROJETO 1",
+      "budget": "2000",
       "category": {
-        "id": "3",
-        "name": "Design"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": []
+      "cost": 100,
+      "services": [
+        {
+          "name": "serviço",
+          "cost": "100",
+          "description": "ksjdflkjsd",
+          "id": "a1444268-9b25-4aea-ba76-51b2e6ac30b7"
+        }
+      ]
     },
     {
-      "id": "4ec9",
-      "name": "meu projeto 2",
-      "budget": "15000",
+      "id": "1138",
+      "name": "projeto 2",
+      "budget": "20000",
       "category": {
-        "id": "3",
-        "name": "Design"
+        "id": "1",
+        "name": "Infra"
       },
       "cost": 0,
       "services": []
