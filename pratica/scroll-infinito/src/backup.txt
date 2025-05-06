@@ -1,0 +1,65 @@
+import './App.css'
+
+import Img from './assets/Img'
+
+import { useRef, useEffect, useState } from 'react'
+
+function App() {
+  const containerRef = useRef()
+  const imgRef = useRef()
+  const [visible, setVisible] = useState(false)
+
+  const [srcList, setSrcList] = useState([])
+
+  function toggleVisible() {
+    setVisible(!visible)
+  }
+
+  useEffect(() => {
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 1.0
+    }
+
+    function callback([entry], observer) {
+      if(entry.isIntersecting) {
+        observer.disconnect()
+        toggleVisible()
+      }
+    }
+
+    const observer = new IntersectionObserver(callback, options)
+
+    observer.observe(containerRef.current)
+
+    return () => observer.disconnect()
+  }, [])
+
+  return (
+    <div className='container'>
+      <h1>Role para ver as imagens</h1>
+      <p>&darr;</p>
+      <p>&darr;</p>
+      <p>&darr;</p>
+      <p>&darr;</p>
+      <p>&darr;</p>
+      <p>&darr;</p>
+      <p>&darr;</p>
+      <p>&darr;</p>
+
+      <div>
+        <h1 ref={containerRef}>Imagens</h1>
+
+        {
+          visible && 
+            srcList.map((src) => (
+              <Img key={} src={src} />
+            ))
+        }
+      </div>
+    </div>
+  )
+}
+
+export default App
