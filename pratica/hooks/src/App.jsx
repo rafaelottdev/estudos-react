@@ -8,6 +8,7 @@ import UseContext from './components/UseContext'
 import ThemeContextProvider from './components/theme-context'
 import UseMemo from './components/UseMemo'
 import UseCallBack from './components/UseCallBack'
+import UseImperativeHandle from './components/UseImperativeHandle'
 
 function App() {
   return (
@@ -24,9 +25,11 @@ function App() {
 
       {/* <UseMemo /> */}
 
-      <UseCallBack />
+      {/* <UseCallBack /> */}
 
       {/* UseLayoutEffect */}
+
+      <UseImperativeHandle />
     </ThemeContextProvider>
   )
 }
