@@ -1,0 +1,9 @@
+.icon_container {
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.icon_container > svg {
+    font-size: 1.4em;
+    fill: red;
+}

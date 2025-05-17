@@ -1,0 +1,17 @@
+.navbar {
+    margin-top: 15px;
+}
+
+.navbar_list {
+    width: inherit;
+    height: inherit;
+
+    padding: 0px 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: right;
+
+    /* background-color: blue; */
+}

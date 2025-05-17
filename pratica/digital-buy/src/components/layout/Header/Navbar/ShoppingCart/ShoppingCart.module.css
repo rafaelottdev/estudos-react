@@ -1,0 +1,9 @@
+.cart_icon_container {
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.cart_icon_container > svg {
+    font-size: 1.4em;
+    color: #000073;
+}

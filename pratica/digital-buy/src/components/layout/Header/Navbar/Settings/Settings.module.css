@@ -1,0 +1,9 @@
+.gear_icon_container {
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.gear_icon_container > svg {
+    font-size: 1.3em;
+    color: #000073;
+}

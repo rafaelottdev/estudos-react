@@ -1,0 +1,1346 @@
+{
+    "users": [
+        {"client": [], "adm": []}
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Farinha de Trigo",
+            "description": "Farinha de trigo enriquecida, ideal para bolos e pães.",
+            "brand": "Dona Benta",
+            "category_id": 1,
+            "price": 6.49,
+            "discount_price": 5.99,
+            "stock_quantity": 120,
+            "unit": "1kg",
+            "images": [
+                {
+                    "url": "https://kioskbrazil.com/cdn/shop/files/0A4BCCC8-FF73-4CFC-9E1F-74AFF1258597.jpg?v=1741289440",
+                    "alt": "Farinha de Trigo Dona Benta 1kg",
+                    "width": 50,
+                    "height": 50
+                }
+            ],
+            "sold": 20
+        },
+        {
+            "id": 2,
+            "name": "Arroz Branco",
+            "description": "Arroz branco com grãos longos e selecionados, ideal para o dia a dia.",
+            "brand": "Tio João",
+            "category_id": 1,
+            "price": 22.90,
+            "discount_price": 19.99,
+            "stock_quantity": 150,
+            "unit": "5kg",
+            "images": [
+                {
+                "url": "",
+                "alt": "Arroz Branco Tio João 5kg",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 34
+        },
+        {
+            "id": 3,
+            "name": "Feijão Carioca",
+            "description": "Feijão carioca selecionado, ideal para o preparo do dia a dia.",
+            "brand": "Kicaldo",
+            "category_id": 1,
+            "price": 8.90,
+            "discount_price": 7.49,
+            "stock_quantity": 200,
+            "unit": "1kg",
+            "images": [
+                {
+                "url": "",
+                "alt": "Feijão Carioca Kicaldo 1kg",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 45
+        },
+        {
+            "id": 4,
+            "name": "Óleo de Soja",
+            "description": "Óleo de soja refinado, ideal para frituras e preparos diversos.",
+            "brand": "Soya",
+            "category_id": 1,
+            "price": 7.99,
+            "discount_price": 6.79,
+            "stock_quantity": 180,
+            "unit": "900ml",
+            "images": [
+                {
+                "url": "",
+                "alt": "Óleo de Soja Soya 900ml",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 60
+        },
+        {
+            "id": 5,
+            "name": "Açúcar Refinado",
+            "description": "Açúcar refinado branco, ideal para receitas doces e uso diário.",
+            "brand": "União",
+            "category_id": 1,
+            "price": 4.89,
+            "discount_price": 4.29,
+            "stock_quantity": 160,
+            "unit": "1kg",
+            "images": [
+                {
+                "url": "",
+                "alt": "Açúcar Refinado União 1kg",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 38
+        },
+        {
+            "id": 6,
+            "name": "Camiseta Masculina",
+            "description": "Camiseta masculina de algodão, confortável e com design moderno.",
+            "brand": "Hering",
+            "category_id": 2,
+            "price": 39.90,
+            "discount_price": 29.90,
+            "stock_quantity": 100,
+            "unit": "P",
+            "images": [
+                {
+                "url": "",
+                "alt": "Camiseta Masculina Hering",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 20
+        },
+        {
+            "id": 7,
+            "name": "Calça Jeans Feminina",
+            "description": "Calça jeans feminina, modelo skinny, confortável e de alta qualidade.",
+            "brand": "Levis",
+            "category_id": 2,
+            "price": 149.90,
+            "discount_price": 119.90,
+            "stock_quantity": 75,
+            "unit": "36",
+            "images": [
+                {
+                "url": "",
+                "alt": "Calça Jeans Feminina Levis",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 30
+        },
+        {
+            "id": 8,
+            "name": "Tênis Esportivo Masculino",
+            "description": "Tênis esportivo masculino, ideal para corridas e treinos, com solado antiderrapante.",
+            "brand": "Nike",
+            "category_id": 2,
+            "price": 299.90,
+            "discount_price": 249.90,
+            "stock_quantity": 50,
+            "unit": "43",
+            "images": [
+                {
+                "url": "",
+                "alt": "Tênis Esportivo Masculino Nike",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 12
+        },
+        {
+            "id": 9,
+            "name": "Vestido Longo Feminino",
+            "description": "Vestido longo feminino, modelo elegante, ideal para eventos e ocasiões especiais.",
+            "brand": "Zara",
+            "category_id": 2,
+            "price": 199.90,
+            "discount_price": 159.90,
+            "stock_quantity": 120,
+            "unit": "M",
+            "images": [
+                {
+                "url": "",
+                "alt": "Vestido Longo Feminino Zara",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 40
+        },
+        {
+            "id": 10,
+            "name": "Jaqueta de Couro Masculina",
+            "description": "Jaqueta de couro masculina, estilo clássico, resistente e ideal para o inverno.",
+            "brand": "Diesel",
+            "category_id": 2,
+            "price": 499.90,
+            "discount_price": 399.90,
+            "stock_quantity": 40,
+            "unit": "G",
+            "images": [
+                {
+                "url": "",
+                "alt": "Jaqueta de Couro Masculina Diesel",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 18
+        },
+        {
+            "id": 11,
+            "name": "Shampoo Hidratante",
+            "description": "Shampoo hidratante para cabelos secos, proporciona brilho e maciez.",
+            "brand": "Pantene",
+            "category_id": 3,
+            "price": 19.90,
+            "discount_price": 14.90,
+            "stock_quantity": 150,
+            "unit": "400ml",
+            "images": [
+                {
+                "url": "",
+                "alt": "Shampoo Hidratante Pantene",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 75
+        },
+        {
+            "id": 12,
+            "name": "Creme Facial Anti-Idade",
+            "description": "Creme facial anti-idade, reduz sinais de envelhecimento e hidrata profundamente.",
+            "brand": "Nivea",
+            "category_id": 3,
+            "price": 49.90,
+            "discount_price": 39.90,
+            "stock_quantity": 80,
+            "unit": "50g",
+            "images": [
+                {
+                "url": "",
+                "alt": "Creme Facial Anti-Idade Nivea",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 20
+        },
+        {
+            "id": 13,
+            "name": "Batom Matte",
+            "description": "Batom matte de longa duração, proporciona cor intensa e acabamento mate.",
+            "brand": "Maybelline",
+            "category_id": 3,
+            "price": 29.90,
+            "discount_price": 24.90,
+            "stock_quantity": 100,
+            "unit": "4g",
+            "images": [
+                {
+                "url": "",
+                "alt": "Batom Matte Maybelline",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 45
+        },
+        {
+            "id": 14,
+            "name": "Perfume Feminino",
+            "description": "Perfume feminino floral, fragrância suave e duradoura, ideal para o uso diário.",
+            "brand": "Dior",
+            "category_id": 3,
+            "price": 299.90,
+            "discount_price": 249.90,
+            "stock_quantity": 60,
+            "unit": "50ml",
+            "images": [
+                {
+                "url": "",
+                "alt": "Perfume Feminino Dior",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 20
+        },
+        {
+            "id": 15,
+            "name": "Máscara de Cílios",
+            "description": "Máscara de cílios volumosa, proporciona volume e definição por até 24 horas.",
+            "brand": "L'Oréal",
+            "category_id": 3,
+            "price": 39.90,
+            "discount_price": 29.90,
+            "stock_quantity": 120,
+            "unit": "9ml",
+            "images": [
+                {
+                "url": "",
+                "alt": "Máscara de Cílios L'Oréal",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 65
+        },
+        {
+            "id": 16,
+            "name": "Sofá Retrátil",
+            "description": "Sofá retrátil de 3 lugares, confortável e perfeito para salas de estar.",
+            "brand": "Tok&Stok",
+            "category_id": 4,
+            "price": 1599.90,
+            "discount_price": 1399.90,
+            "stock_quantity": 20,
+            "unit": "Unidade",
+            "images": [
+            {
+                "url": "",
+                "alt": "Sofá Retrátil Tok&Stok",
+                "width": 50,
+                "height": 50
+            }
+            ],
+            "sold": 10
+        },
+        {
+            "id": 17,
+            "name": "Mesa de Jantar",
+            "description": "Mesa de jantar para 6 lugares, madeira maciça e design moderno.",
+            "brand": "Leroy Merlin",
+            "category_id": 4,
+            "price": 899.90,
+            "discount_price": 749.90,
+            "stock_quantity": 35,
+            "unit": "Unidade",
+            "images": [
+            {
+                "url": "",
+                "alt": "Mesa de Jantar Leroy Merlin",
+                "width": 50,
+                "height": 50
+            }
+            ],
+            "sold": 18
+        },
+        {
+            "id": 18,
+            "name": "Cadeira de Escritório",
+            "description": "Cadeira de escritório ergonômica com ajuste de altura e apoio para os braços.",
+            "brand": "Staples",
+            "category_id": 4,
+            "price": 299.90,
+            "discount_price": 249.90,
+            "stock_quantity": 50,
+            "unit": "Unidade",
+            "images": [
+            {
+                "url": "",
+                "alt": "Cadeira de Escritório Staples",
+                "width": 50,
+                "height": 50
+            }
+            ],
+            "sold": 30
+        },
+        {
+            "id": 19,
+            "name": "Estante para Livros",
+            "description": "Estante de madeira para livros, com 4 prateleiras e design simples.",
+            "brand": "Mobly",
+            "category_id": 4,
+            "price": 199.90,
+            "discount_price": 169.90,
+            "stock_quantity": 60,
+            "unit": "Unidade",
+            "images": [
+            {
+                "url": "",
+                "alt": "Estante para Livros Mobly",
+                "width": 50,
+                "height": 50
+            }
+            ],
+            "sold": 45
+        },
+        {
+            "id": 20,
+            "name": "Cama Box Queen Size",
+            "description": "Cama box queen size, colchão ortopédico e base com design moderno.",
+            "brand": "Casas Bahia",
+            "category_id": 4,
+            "price": 1299.90,
+            "discount_price": 1099.90,
+            "stock_quantity": 15,
+            "unit": "Unidade",
+            "images": [
+            {
+                "url": "",
+                "alt": "Cama Box Queen Size Casas Bahia",
+                "width": 50,
+                "height": 50
+            }
+            ],
+            "sold": 8
+        },
+        {
+            "id": 21,
+            "name": "Furadeira Elétrica",
+            "description": "Furadeira elétrica com velocidade variável e design compacto para fácil manuseio.",
+            "brand": "Bosch",
+            "category_id": 5,
+            "price": 299.90,
+            "discount_price": 249.90,
+            "stock_quantity": 40,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "Furadeira Elétrica Bosch",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 25
+        },
+        {
+            "id": 22,
+            "name": "Chave Inglesa",
+            "description": "Chave inglesa com ajuste de tamanho, ideal para trabalhos mecânicos e reparos.",
+            "brand": "Stanley",
+            "category_id": 5,
+            "price": 49.90,
+            "discount_price": 39.90,
+            "stock_quantity": 100,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "Chave Inglesa Stanley",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 60
+        },
+        {
+            "id": 23,
+            "name": "Serra Circular",
+            "description": "Serra circular de 7,25 polegadas com ajuste de profundidade e base metálica.",
+            "brand": "Makita",
+            "category_id": 5,
+            "price": 599.90,
+            "discount_price": 499.90,
+            "stock_quantity": 30,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "Serra Circular Makita",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 15
+        },
+        {
+            "id": 24,
+            "name": "Alicate de Pressão",
+            "description": "Alicate de pressão ajustável, ideal para apertar e segurar peças com firmeza.",
+            "brand": "Irwin",
+            "category_id": 5,
+            "price": 79.90,
+            "discount_price": 69.90,
+            "stock_quantity": 80,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "Alicate de Pressão Irwin",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 50
+        },
+        {
+            "id": 25,
+            "name": "Martelo de Unha",
+            "description": "Martelo de unha com cabo de fibra, ideal para fixação de pregos e pequenos reparos.",
+            "brand": "Vonder",
+            "category_id": 5,
+            "price": 29.90,
+            "discount_price": 24.90,
+            "stock_quantity": 150,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "Martelo de Unha Vonder",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 90
+        },
+        {
+            "id": 26,
+            "name": "Óleo de Motor 5W30",
+            "description": "Óleo lubrificante sintético para motor, garante maior desempenho e proteção.",
+            "brand": "Mobil",
+            "category_id": 6,
+            "price": 89.90,
+            "discount_price": 74.90,
+            "stock_quantity": 100,
+            "unit": "1L",
+            "images": [
+                {
+                "url": "",
+                "alt": "Óleo de Motor 5W30 Mobil",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 60
+        },
+        {
+            "id": 27,
+            "name": "Bateria Automotiva 60Ah",
+            "description": "Bateria automotiva com alta durabilidade e excelente desempenho em partidas.",
+            "brand": "Heliar",
+            "category_id": 6,
+            "price": 459.90,
+            "discount_price": 399.90,
+            "stock_quantity": 40,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "Bateria Automotiva 60Ah Heliar",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 25
+        },
+        {
+            "id": 28,
+            "name": "Palheta de Para-brisa",
+            "description": "Palheta de para-brisa de silicone, proporciona limpeza eficiente e silenciosa.",
+            "brand": "Bosch",
+            "category_id": 6,
+            "price": 39.90,
+            "discount_price": 29.90,
+            "stock_quantity": 150,
+            "unit": "Par",
+            "images": [
+                {
+                "url": "",
+                "alt": "Palheta de Para-brisa Bosch",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 80
+        },
+        {
+            "id": 29,
+            "name": "Lâmpada Automotiva H7",
+            "description": "Lâmpada automotiva H7 com alta luminosidade e longa durabilidade.",
+            "brand": "Philips",
+            "category_id": 6,
+            "price": 29.90,
+            "discount_price": 24.90,
+            "stock_quantity": 200,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "Lâmpada Automotiva H7 Philips",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 90
+        },
+        {
+            "id": 30,
+            "name": "Aromatizante para Carro",
+            "description": "Aromatizante automotivo com fragrância prolongada, ideal para o interior do veículo.",
+            "brand": "Bom Ar",
+            "category_id": 6,
+            "price": 14.90,
+            "discount_price": 9.90,
+            "stock_quantity": 300,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "Aromatizante para Carro Bom Ar",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 120
+        },
+        {
+            "id": 31,
+            "name": "Smartphone Galaxy S21",
+            "description": "Smartphone com tela de 6,2 polegadas, processador Exynos 2100 e câmeras de alta resolução.",
+            "brand": "Samsung",
+            "category_id": 7,
+            "price": 4499.90,
+            "discount_price": 3999.90,
+            "stock_quantity": 50,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "Smartphone Galaxy S21 Samsung",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 20
+        },
+        {
+            "id": 32,
+            "name": "Notebook Inspiron 15",
+            "description": "Notebook com processador Intel i5, 8GB de RAM, e 256GB de SSD.",
+            "brand": "Dell",
+            "category_id": 7,
+            "price": 3499.90,
+            "discount_price": 2999.90,
+            "stock_quantity": 30,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "Notebook Inspiron 15 Dell",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 15
+        },
+        {
+            "id": 33,
+            "name": "Fone de Ouvido Bluetooth",
+            "description": "Fone de ouvido sem fio com cancelamento de ruído e bateria de longa duração.",
+            "brand": "Sony",
+            "category_id": 7,
+            "price": 299.90,
+            "discount_price": 249.90,
+            "stock_quantity": 100,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "Fone de Ouvido Bluetooth Sony",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 60
+        },
+        {
+            "id": 34,
+            "name": "Smartwatch Amazfit GTR",
+            "description": "Smartwatch com tela AMOLED, monitoramento de saúde e GPS integrado.",
+            "brand": "Amazfit",
+            "category_id": 7,
+            "price": 799.90,
+            "discount_price": 699.90,
+            "stock_quantity": 70,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "Smartwatch Amazfit GTR",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 40
+        },
+        {
+            "id": 35,
+            "name": "Câmera Digital EOS Rebel T7",
+            "description": "Câmera digital com lente de 18-55mm, ideal para fotos e vídeos de alta qualidade.",
+            "brand": "Canon",
+            "category_id": 7,
+            "price": 2799.90,
+            "discount_price": 2499.90,
+            "stock_quantity": 25,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "Câmera Digital EOS Rebel T7 Canon",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 10
+        },
+        {
+            "id": 36,
+            "name": "Console PlayStation 5",
+            "description": "Console de videogame de última geração, com gráficos em 4K e ultra velocidade de carregamento.",
+            "brand": "Sony",
+            "category_id": 8,
+            "price": 4999.90,
+            "discount_price": 4599.90,
+            "stock_quantity": 40,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "Console PlayStation 5 Sony",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 15
+        },
+        {
+            "id": 37,
+            "name": "Xbox Series X",
+            "description": "Console de videogame com desempenho gráfico superior e tempo de carregamento rápido.",
+            "brand": "Microsoft",
+            "category_id": 8,
+            "price": 4999.90,
+            "discount_price": 4699.90,
+            "stock_quantity": 50,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "Xbox Series X Microsoft",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 20
+        },
+        {
+            "id": 38,
+            "name": "FIFA 23",
+            "description": "Jogo de futebol com novas mecânicas, times atualizados e gráficos realistas.",
+            "brand": "EA Sports",
+            "category_id": 8,
+            "price": 249.90,
+            "discount_price": 199.90,
+            "stock_quantity": 150,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "FIFA 23 EA Sports",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 80
+        },
+        {
+            "id": 39,
+            "name": "The Legend of Zelda: Breath of the Wild",
+            "description": "Jogo de aventura e ação, com mundo aberto e mecânicas inovadoras.",
+            "brand": "Nintendo",
+            "category_id": 8,
+            "price": 349.90,
+            "discount_price": 299.90,
+            "stock_quantity": 60,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "The Legend of Zelda: Breath of the Wild Nintendo",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 30
+        },
+        {
+            "id": 40,
+            "name": "Gaming Headset Razer Kraken",
+            "description": "Headset gamer com som surround 7.1 e microfone retrátil para comunicação clara.",
+            "brand": "Razer",
+            "category_id": 8,
+            "price": 399.90,
+            "discount_price": 349.90,
+            "stock_quantity": 80,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "Gaming Headset Razer Kraken",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 50
+        },
+        {
+        "id": 41,
+        "name": "Carrinho de Bebê Travel System",
+        "description": "Carrinho de bebê com sistema travel system, assento reclinável e estrutura dobrável.",
+        "brand": "Britax",
+        "category_id": 9,
+        "price": 899.90,
+        "discount_price": 749.90,
+        "stock_quantity": 30,
+        "unit": "Unidade",
+        "images": [
+            {
+            "url": "",
+            "alt": "Carrinho de Bebê Travel System Britax",
+            "width": 50,
+            "height": 50
+            }
+        ],
+        "sold": 10
+        },
+        {
+            "id": 42,
+            "name": "Bichinho de Pelúcia Elefante",
+            "description": "Bichinho de pelúcia macio e fofo, ideal para crianças a partir de 2 anos.",
+            "brand": "Fisher-Price",
+            "category_id": 9,
+            "price": 59.90,
+            "discount_price": 49.90,
+            "stock_quantity": 100,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "Bichinho de Pelúcia Elefante Fisher-Price",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 40
+        },
+        {
+            "id": 43,
+            "name": "Cubo de Atividades Musical",
+            "description": "Cubo de atividades com sons, luzes e várias opções para o desenvolvimento sensorial das crianças.",
+            "brand": "Buba",
+            "category_id": 9,
+            "price": 89.90,
+            "discount_price": 69.90,
+            "stock_quantity": 120,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "Cubo de Atividades Musical Buba",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 70
+        },
+        {
+            "id": 44,
+            "name": "Quebra-Cabeça 500 Peças",
+            "description": "Quebra-cabeça com 500 peças, ideal para desenvolver a coordenação motora e o raciocínio lógico.",
+            "brand": "Estrela",
+            "category_id": 9,
+            "price": 39.90,
+            "discount_price": 29.90,
+            "stock_quantity": 150,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "Quebra-Cabeça 500 Peças Estrela",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 90
+        },
+        {
+            "id": 45,
+            "name": "Caminhão de Brinquedo",
+            "description": "Caminhão de brinquedo com design robusto e rodas que se movem facilmente.",
+            "brand": "VTech",
+            "category_id": 9,
+            "price": 79.90,
+            "discount_price": 69.90,
+            "stock_quantity": 80,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "Caminhão de Brinquedo VTech",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 50
+        },
+        {
+            "id": 46,
+            "name": "Termômetro Digital",
+            "description": "Termômetro digital com medição rápida e precisa, ideal para uso em crianças e adultos.",
+            "brand": "G-Tech",
+            "category_id": 10,
+            "price": 39.90,
+            "discount_price": 29.90,
+            "stock_quantity": 200,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "Termômetro Digital G-Tech",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 150
+        },
+        {
+            "id": 47,
+            "name": "Kit Primeiros Socorros",
+            "description": "Kit completo de primeiros socorros com itens essenciais para emergências.",
+            "brand": "FarmaPouch",
+            "category_id": 10,
+            "price": 79.90,
+            "discount_price": 69.90,
+            "stock_quantity": 120,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "Kit Primeiros Socorros FarmaPouch",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 60
+        },
+        {
+            "id": 48,
+            "name": "Máscara Descartável",
+            "description": "Máscaras descartáveis para proteção contra partículas e vírus, pacote com 50 unidades.",
+            "brand": "Care",
+            "category_id": 10,
+            "price": 29.90,
+            "discount_price": 19.90,
+            "stock_quantity": 300,
+            "unit": "Pacote",
+            "images": [
+                {
+                "url": "",
+                "alt": "Máscara Descartável Care",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 250
+        },
+        {
+            "id": 49,
+            "name": "Suplemento Multivitamínico",
+            "description": "Suplemento vitamínico com 12 vitaminas e 8 minerais, ideal para melhorar o bem-estar geral.",
+            "brand": "Vitafor",
+            "category_id": 10,
+            "price": 89.90,
+            "discount_price": 79.90,
+            "stock_quantity": 150,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "Suplemento Multivitamínico Vitafor",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 90
+        },
+        {
+            "id": 50,
+            "name": "Protetor Solar FPS 50",
+            "description": "Protetor solar com FPS 50, ideal para proteger a pele contra os raios UV.",
+            "brand": "Neutrogena",
+            "category_id": 10,
+            "price": 49.90,
+            "discount_price": 39.90,
+            "stock_quantity": 100,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "Protetor Solar FPS 50 Neutrogena",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 70
+        },
+        {
+            "id": 51,
+            "name": "O Hobbit",
+            "description": "Livro clássico de J.R.R. Tolkien, conta a história de Bilbo Bolseiro em sua jornada para recuperar o tesouro dos anões.",
+            "brand": "HarperCollins",
+            "category_id": 11,
+            "price": 39.90,
+            "discount_price": 29.90,
+            "stock_quantity": 150,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "O Hobbit J.R.R. Tolkien",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 80
+        },
+        {
+            "id": 52,
+            "name": "1984",
+            "description": "Distopia clássica de George Orwell, abordando temas de vigilância e totalitarismo.",
+            "brand": "Companhia das Letras",
+            "category_id": 11,
+            "price": 34.90,
+            "discount_price": 24.90,
+            "stock_quantity": 200,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "1984 George Orwell",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 120
+        },
+        {
+            "id": 53,
+            "name": "A Guerra dos Tronos",
+            "description": "Primeiro livro da série 'As Crônicas de Gelo e Fogo', de George R.R. Martin.",
+            "brand": "Leya",
+            "category_id": 11,
+            "price": 49.90,
+            "discount_price": 39.90,
+            "stock_quantity": 80,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "A Guerra dos Tronos George R.R. Martin",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 40
+        },
+        {
+            "id": 54,
+            "name": "O Código Da Vinci",
+            "description": "Romance de Dan Brown que mistura mistérios, história e arte, levando o leitor a uma jornada fascinante.",
+            "brand": "Arqueiro",
+            "category_id": 11,
+            "price": 39.90,
+            "discount_price": 29.90,
+            "stock_quantity": 100,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "O Código Da Vinci Dan Brown",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 60
+        },
+        {
+            "id": 55,
+            "name": "Harry Potter e a Pedra Filosofal",
+            "description": "Primeiro livro da série 'Harry Potter', que acompanha o jovem bruxo em sua jornada para derrotar as forças das trevas.",
+            "brand": "Rocco",
+            "category_id": 11,
+            "price": 49.90,
+            "discount_price": 39.90,
+            "stock_quantity": 120,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "Harry Potter e a Pedra Filosofal J.K. Rowling",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 90
+        },
+        {
+            "id": 56,
+            "name": "Ração para Cães Adultos",
+            "description": "Ração completa e balanceada para cães adultos, com nutrientes essenciais para saúde e vitalidade.",
+            "brand": "Pedigree",
+            "category_id": 12,
+            "price": 79.90,
+            "discount_price": 69.90,
+            "stock_quantity": 150,
+            "unit": "Saco 15kg",
+            "images": [
+                {
+                "url": "",
+                "alt": "Ração para Cães Adultos Pedigree",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 100
+        },
+        {
+            "id": 57,
+            "name": "Areia para Gatos",
+            "description": "Areia sanitária para gatos, eficiente na absorção de odores e controle de umidade.",
+            "brand": "Cat's Best",
+            "category_id": 12,
+            "price": 39.90,
+            "discount_price": 29.90,
+            "stock_quantity": 200,
+            "unit": "Saco 5kg",
+            "images": [
+                {
+                "url": "",
+                "alt": "Areia para Gatos Cat's Best",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 150
+        },
+        {
+            "id": 58,
+            "name": "Brinquedo Interativo para Cães",
+            "description": "Brinquedo resistente e interativo para cães, ajuda a estimular a inteligência e o prazer do seu pet.",
+            "brand": "Kong",
+            "category_id": 12,
+            "price": 59.90,
+            "discount_price": 49.90,
+            "stock_quantity": 100,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "Brinquedo Interativo para Cães Kong",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 80
+        },
+        {
+            "id": 59,
+            "name": "Coleira de Cachorro",
+            "description": "Coleira ajustável e confortável para cães, disponível em várias cores e tamanhos.",
+            "brand": "Pet Love",
+            "category_id": 12,
+            "price": 29.90,
+            "discount_price": 19.90,
+            "stock_quantity": 120,
+            "unit": "Unidade",
+            "images": [
+                {
+                "url": "",
+                "alt": "Coleira de Cachorro Pet Love",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 90
+        },
+        {
+            "id": 60,
+            "name": "Petisco para Cães",
+            "description": "Petisco saboroso e nutritivo para cães, ideal para premiar e treinar seu pet.",
+            "brand": "Bubas Pet",
+            "category_id": 12,
+            "price": 19.90,
+            "discount_price": 14.90,
+            "stock_quantity": 300,
+            "unit": "Pacote 200g",
+            "images": [
+                {
+                "url": "",
+                "alt": "Petisco para Cães Bubas Pet",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 250
+        }
+
+    ],
+    "sections": {"best_sellers": [2, 3, 10, 24, 31, 47, 48, 59], "news": [18, 26, 35, 46, 53, 55, 11, 23]},
+    "user_data": { "shopping_cart": [], "favorite": []},
+    "categories": [
+        {
+            "id": 1,
+            "name": "Alimentos e Bebidas",
+            "description": "Produtos alimenticios e bebidas em geral",
+            "is_active": true
+        },
+        {
+            "id": 2,
+            "name": "Moda e Vestuário",
+            "description": "Roupas, calçados e acessórios de moda.",
+            "is_active": true
+        },
+        {
+            "id": 3,
+            "name": "Beleza",
+            "description": "Produtos de cuidados pessoais e cosméticos.",
+            "is_active": true
+        },
+        {
+            "id": 4,
+            "name": "Móveis",
+            "description": "Mobília para todos os ambientes da casa.",
+            "is_active": true
+        },
+        {
+            "id": 5,
+            "name": "Ferramentas",
+            "description": "Ferramentas manuais e elétricas.",
+            "is_active": true
+        },
+        {
+            "id": 6,
+            "name": "Automotivos",
+            "description": "Produtos e acessórios para automóveis.",
+            "is_active": true
+        },
+        {
+            "id": 7,
+            "name": "Tecnologia",
+            "description": "Eletrônicos, computadores e acessórios.",
+            "is_active": true
+        },
+        {
+            "id": 8,
+            "name": "Games",
+            "description": "Videogames, jogos e acessórios.",
+            "is_active": true
+        },
+        {
+            "id": 9,
+            "name": "Infantil",
+            "description": "Produtos para bebês e crianças.",
+            "is_active": true
+        },
+        {
+            "id": 10,
+            "name": "Saúde",
+            "description": "Produtos para cuidados com a saúde.",
+            "is_active": true
+        },
+        {
+            "id": 11,
+            "name": "Livros",
+            "description": "Livros de diversos gêneros e categorias.",
+            "is_active": true
+        },
+        {
+            "id": 12,
+            "name": "Pets",
+            "description": "Produtos para cães, gatos e outros pets.",
+            "is_active": true
+        }
+    ],
+    "coupons": [
+        {
+            "id": 1,
+            "code": "BEMVINDO10",
+            "description": "10% de desconto na primeira compra.",
+            "discount_type": "percentage",
+            "discount_value": 10,
+            "expiration_date": "2025-12-31",
+            "minimum_purchase": 0,
+            "is_active": true,
+            "usage_limit": 100,
+            "used_count": 0
+        },
+        {
+            "id": 2,
+            "code": "FRETEGRATIS",
+            "description": "Frete grátis em pedidos acima de R$100.",
+            "discount_type": "shipping",
+            "discount_value": 100,
+            "expiration_date": "2025-08-31",
+            "minimum_purchase": 100.0,
+            "is_active": true,
+            "usage_limit": 500,
+            "used_count": 87
+        },
+        {
+            "id": 3,
+            "code": "DESC20REAIS",
+            "description": "R$20 de desconto em compras acima de R$150.",
+            "discount_type": "fixed",
+            "discount_value": 20,
+            "expiration_date": "2025-11-30",
+            "minimum_purchase": 150.0,
+            "is_active": true,
+            "usage_limit": 200,
+            "used_count": 45
+        },
+        {
+            "id": 4,
+            "code": "MODA15",
+            "description": "15% de desconto na categoria Moda e Vestuário.",
+            "discount_type": "percentage",
+            "discount_value": 15,
+            "expiration_date": "2025-10-15",
+            "minimum_purchase": 80.0,
+            "is_active": true,
+            "usage_limit": 300,
+            "used_count": 112
+        },
+        {
+            "id": 5,
+            "code": "SAUDE5",
+            "description": "R$5 de desconto em qualquer produto da categoria Saúde.",
+            "discount_type": "fixed",
+            "discount_value": 5,
+            "expiration_date": "2026-01-01",
+            "minimum_purchase": 30.0,
+            "is_active": true,
+            "usage_limit": 150,
+            "used_count": 23
+        }
+    ]
+}

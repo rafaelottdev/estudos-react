@@ -28,6 +28,17 @@
       },
       "cost": 0,
       "services": []
+    },
+    {
+      "id": "14c6",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "name": "projeto",
+      "budget": "2000",
+      "cost": 0,
+      "services": []
     }
   ],
   "categories": [
