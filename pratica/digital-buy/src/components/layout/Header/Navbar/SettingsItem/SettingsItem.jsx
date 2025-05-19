@@ -1,8 +1,8 @@
-import style from "./Settings.module.css"
+import style from "./SettingsItem.module.css"
 
 import { FaGear } from "react-icons/fa6"
 
-const Settings = () => {
+const SettingsItem = () => {
     return (
         <li className={style.gear_icon_container}>
             <FaGear />
@@ -10,4 +10,4 @@ const Settings = () => {
     )
 }
 
-export default Settings
+export default SettingsItem

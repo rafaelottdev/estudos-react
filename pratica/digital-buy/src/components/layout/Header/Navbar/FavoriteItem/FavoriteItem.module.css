@@ -1,5 +1,8 @@
 .icon_container {
     margin-right: 50px;
+    padding: 3px;
+
+    display: block;
     cursor: pointer;
 }
 

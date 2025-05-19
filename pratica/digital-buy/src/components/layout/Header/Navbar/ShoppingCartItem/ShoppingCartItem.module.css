@@ -1,5 +1,9 @@
 .cart_icon_container {
+    padding: 3px;
     margin-right: 50px;
+
+    display: block;
+
     cursor: pointer;
 }
 

@@ -1,0 +1,9 @@
+.panel_container {
+    width: 1200px;
+    height: 500px;
+
+    padding: 30px;
+    border-radius: 15px;
+
+    background-color: rgb(141, 141, 141);
+}

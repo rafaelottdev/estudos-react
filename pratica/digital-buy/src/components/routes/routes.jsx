@@ -2,8 +2,6 @@ import { createBrowserRouter } from "react-router-dom"
 
 import App from "../../App"
 
-import Home from "../pages/Home/Home"
-
 import FoodAndDrinks from "../pages/categories/FoodAndDrinks/FoodAndDrinks"
 import Fashion from "../pages/categories/Fashion/Fashion"
 import Beauty from "../pages/categories/Beauty/Beauty"
@@ -17,12 +15,31 @@ import Health from "../pages/categories/Health/Health"
 import Books from "../pages/categories/Books/Books"
 import Pets from "../pages/categories/Pets/Pets"
 
+import ShoppingCart from "../pages/ShoppingCart/ShoppingCart"
+import Favorites from "../pages/Favorites/Favorites"
+
+import MainContent from "../layout/Main/MainContent/MainContent"
+
+import BestSellersPanel from "../layout/Main/MainContent/Home/Panel/BestSellersPanel/BestSellersPanel"
+import NewsPanel from "../layout/Main/MainContent/Home/Panel/NewsPanel/NewsPanel"
+import ShoppingCartPanel from "../layout/Main/MainContent/Home/Panel/ShoppingCartPanel/ShoppingCartPanel"
+import FavoritesPanel from "../layout/Main/MainContent/Home/Panel/FavoritesPanel/FavoritesPanel"
+
 export const router = createBrowserRouter([
     {
-        path: "/",
+        path: "/*",
         element: <App />,
         children: [
-            {index: true, element: <Home />},
+            {
+                path: "",
+                element: <MainContent />,
+                children: [
+                    { index: true, element: <BestSellersPanel /> },
+                    { path: "newsPanel", element: <NewsPanel /> },
+                    { path: "CartPanel", element: <ShoppingCartPanel /> },
+                    { path: "FavoritesPanel", element: <FavoritesPanel /> }
+                ]
+            },
             {path: "food", element: <FoodAndDrinks />},
             {path: "Fashion", element: <Fashion />},
             {path: "Beauty", element: <Beauty />},
@@ -34,7 +51,10 @@ export const router = createBrowserRouter([
             {path: "Childrens", element: <Childrens />},
             {path: "Health", element: <Health />},
             {path: "Books", element: <Books />},
-            {path: "Pets", element: <Pets />}
+            {path: "Pets", element: <Pets />},
+
+            {path: "Cart", element: <ShoppingCart />},
+            {path: "Favorites", element: <Favorites />},
         ]
     }
 ])
