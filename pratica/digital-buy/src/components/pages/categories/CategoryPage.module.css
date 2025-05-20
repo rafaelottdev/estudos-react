@@ -1,0 +1,27 @@
+.category_container {
+    padding: 30px 65px;
+}
+
+.category_container > div {
+    margin-bottom: 30px;
+}
+
+.category_container > div > h2 {
+    font-size: 1.7em;
+    line-height: 1.6em;
+}
+
+.category_container > div > p {
+    letter-spacing: .5px;
+    font-size: 1.1em;
+}
+
+.category_container > ul {
+    width: 100%;
+
+    padding: 0px 30px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}

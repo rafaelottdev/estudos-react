@@ -43,6 +43,8 @@
     position: absolute;
     top: 34px;
     background-color: rgb(208, 202, 202);
+
+    z-index: 1;
 }
 
 .category_item > ul > li > a {

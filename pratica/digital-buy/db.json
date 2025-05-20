@@ -35,7 +35,7 @@
             "unit": "5kg",
             "images": [
                 {
-                "url": "",
+                "url": "https://josapar.vteximg.com.br/arquivos/ids/157456-1000-1000/20110_1.jpg?v=638545905862900000",
                 "alt": "Arroz Branco Tio João 5kg",
                 "width": 50,
                 "height": 50
@@ -55,7 +55,7 @@
             "unit": "1kg",
             "images": [
                 {
-                "url": "",
+                "url": "https://kicaldo.com.br/wp-content/uploads/2020/07/Kicaldo-feijaocarioca.png",
                 "alt": "Feijão Carioca Kicaldo 1kg",
                 "width": 50,
                 "height": 50
@@ -75,7 +75,7 @@
             "unit": "900ml",
             "images": [
                 {
-                "url": "",
+                "url": "https://carrefourbrfood.vtexassets.com/arquivos/ids/211616/141836_1.jpg?v=637272514200130000",
                 "alt": "Óleo de Soja Soya 900ml",
                 "width": 50,
                 "height": 50
@@ -95,13 +95,213 @@
             "unit": "1kg",
             "images": [
                 {
-                "url": "",
+                "url": "https://atacadaobr.vtexassets.com/arquivos/ids/230682-300-auto?width=300&height=auto&aspect=true",
                 "alt": "Açúcar Refinado União 1kg",
                 "width": 50,
                 "height": 50
                 }
             ],
             "sold": 38
+        },
+        {
+            "id": 53,
+            "name": "Café em Pó Tradicional",
+            "description": "Café torrado e moído com sabor encorpado.",
+            "brand": "Pilão",
+            "category_id": 1,
+            "price": 10.99,
+            "discount_price": 9.49,
+            "stock_quantity": 80,
+            "unit": "500g",
+            "images": [
+                {
+                "url": "https://carrefourbrfood.vtexassets.com/arquivos/ids/194217/7514654_1.jpg?v=637272432229700000",
+                "alt": "Café Pilão Tradicional 500g",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 45
+        },
+        {
+            "id": 54,
+            "name": "Leite Integral Longa Vida",
+            "description": "Leite UHT integral, ideal para o dia a dia.",
+            "brand": "Parmalat",
+            "category_id": 1,
+            "price": 4.89,
+            "discount_price": 4.39,
+            "stock_quantity": 150,
+            "unit": "1L",
+            "images": [
+                {
+                "url": "https://quataalimentos.com.br/wp-content/uploads/2018/01/Leite-UHT-Integral.jpg",
+                "alt": "Leite Integral Parmalat 1L",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 60
+        },
+        {
+            "id": 55,
+            "name": "Macarrão Espaguete",
+            "description": "Macarrão tipo espaguete de cozimento rápido.",
+            "brand": "Renata",
+            "category_id": 1,
+            "price": 3.29,
+            "discount_price": 2.99,
+            "stock_quantity": 200,
+            "unit": "500g",
+            "images": [
+                {
+                "url": "https://ibassets.com.br/ib.item.image.large/l-1aa700a88d254a9a96ce6d00def5c9bc.png",
+                "alt": "Macarrão Espaguete Renata 500g",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 37
+        },
+        {
+            "id": 56,
+            "name": "Margarina com Sal",
+            "description": "Margarina cremosa com sal para pães e receitas.",
+            "brand": "Qualy",
+            "category_id": 1,
+            "price": 6.49,
+            "discount_price": 5.99,
+            "stock_quantity": 90,
+            "unit": "500g",
+            "images": [
+                {
+                "url": "https://static.extramercado.com.br/img/uploads/1/606/27254606.jpg",
+                "alt": "Margarina Qualy com Sal 500g",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 25
+        },
+        {
+            "id": 57,
+            "name": "Achocolatado em Pó",
+            "description": "Achocolatado em pó ideal para misturar com leite.",
+            "brand": "Nescau",
+            "category_id": 1,
+            "price": 7.99,
+            "discount_price": 6.79,
+            "stock_quantity": 110,
+            "unit": "400g",
+            "images": [
+                {
+                "url": "https://mercantilatacado.vtexassets.com/arquivos/ids/169853-1200-auto?v=638349578445070000&width=1200&height=auto&aspect=true",
+                "alt": "Achocolatado Nescau 400g",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 52
+        },
+        {
+            "id": 58,
+            "name": "Arroz Tipo 1",
+            "description": "Arroz branco tipo 1, ideal para o dia a dia.",
+            "brand": "Tio João",
+            "category_id": 1,
+            "price": 23.90,
+            "discount_price": 21.50,
+            "stock_quantity": 100,
+            "unit": "5kg",
+            "images": [
+                {
+                "url": "https://www.camil.com.br/wp-content/uploads/sites/12/2020/06/arroz-branco-camil-t1-1kg-1024x1024.jpg",
+                "alt": "Arroz Tio João Tipo 1 5kg",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 65
+        },
+        {
+            "id": 59,
+            "name": "Feijão Carioca",
+            "description": "Feijão tipo carioca selecionado e de alta qualidade.",
+            "brand": "Kicaldo",
+            "category_id": 1,
+            "price": 8.99,
+            "discount_price": 7.99,
+            "stock_quantity": 90,
+            "unit": "1kg",
+            "images": [
+                {
+                "url": "https://kicaldo.com.br/wp-content/uploads/2020/07/Kicaldo-feijaocarioca.png",
+                "alt": "Feijão Carioca Kicaldo 1kg",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 40
+        },
+        {
+            "id": 60,
+            "name": "Açúcar Refinado",
+            "description": "Açúcar branco refinado ideal para receitas e bebidas.",
+            "brand": "União",
+            "category_id": 1,
+            "price": 4.29,
+            "discount_price": 3.89,
+            "stock_quantity": 130,
+            "unit": "1kg",
+            "images": [
+                {
+                "url": "https://atacadaobr.vtexassets.com/arquivos/ids/230682-300-auto?width=300&height=auto&aspect=true",
+                "alt": "Açúcar Refinado União 1kg",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 48
+        },
+        {
+            "id": 61,
+            "name": "Óleo de Soja",
+            "description": "Óleo vegetal de soja refinado.",
+            "brand": "Soya",
+            "category_id": 1,
+            "price": 7.49,
+            "discount_price": 6.99,
+            "stock_quantity": 85,
+            "unit": "900ml",
+            "images": [
+                {
+                "url": "https://carrefourbrfood.vtexassets.com/arquivos/ids/211616/141836_1.jpg?v=637272514200130000",
+                "alt": "Óleo de Soja Soya 900ml",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 55
+        },
+        {
+            "id": 62,
+            "name": "Molho de Tomate Tradicional",
+            "description": "Molho pronto tradicional com pedaços de tomate.",
+            "brand": "Elefante",
+            "category_id": 1,
+            "price": 3.99,
+            "discount_price": 3.49,
+            "stock_quantity": 140,
+            "unit": "340g",
+            "images": [
+                {
+                "url": "https://santaluzia.vtexassets.com/arquivos/ids/989308-1200-auto?v=638251992460770000&width=1200&height=auto&aspect=true",
+                "alt": "Molho de Tomate Elefante 340g",
+                "width": 50,
+                "height": 50
+                }
+            ],
+            "sold": 33
         },
         {
             "id": 6,
@@ -115,7 +315,7 @@
             "unit": "P",
             "images": [
                 {
-                "url": "",
+                "url": "https://m.media-amazon.com/images/I/41VzK4OiT7L._AC_SX569_.jpg",
                 "alt": "Camiseta Masculina Hering",
                 "width": 50,
                 "height": 50
@@ -135,7 +335,7 @@
             "unit": "36",
             "images": [
                 {
-                "url": "",
+                "url": "https://lojalevis.vtexassets.com/arquivos/ids/508234-1200-1200?v=638352410977500000&width=1200&height=1200&aspect=true",
                 "alt": "Calça Jeans Feminina Levis",
                 "width": 50,
                 "height": 50
@@ -155,7 +355,7 @@
             "unit": "43",
             "images": [
                 {
-                "url": "",
+                "url": "https://www.lojaskikos.com.br/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Ftfdfjz.vtexassets.com%2Farquivos%2Fids%2F236509%2Ftenis-esportivo-nike-masculino-revolution-6--dc8992-003-preto-dc8992-003-1-.jpg%3Fv%3D638272076895400000&fit=cover&width=800&height=800",
                 "alt": "Tênis Esportivo Masculino Nike",
                 "width": 50,
                 "height": 50
@@ -175,7 +375,7 @@
             "unit": "M",
             "images": [
                 {
-                "url": "",
+                "url": "https://http2.mlstatic.com/D_NQ_NP_2X_787560-CBT84192530853_042025-F-vestido-preto-pequeno-zarz-foreign-trade-europeu-e-americano.webp",
                 "alt": "Vestido Longo Feminino Zara",
                 "width": 50,
                 "height": 50
@@ -195,7 +395,7 @@
             "unit": "G",
             "images": [
                 {
-                "url": "",
+                "url": "https://m.media-amazon.com/images/I/71EbTtWw0lL._AC_SX679_.jpg",
                 "alt": "Jaqueta de Couro Masculina Diesel",
                 "width": 50,
                 "height": 50
@@ -215,7 +415,7 @@
             "unit": "400ml",
             "images": [
                 {
-                "url": "",
+                "url": "https://www.palmolive.com.br/content/dam/cp-sites/personal-care/palmolive-latam/redesign-2020/pt-br/pdp/shampoo-cuidado-absoluto/shampoo-cuidado-absoluto-da-frente-new.jpg",
                 "alt": "Shampoo Hidratante Pantene",
                 "width": 50,
                 "height": 50
@@ -235,7 +435,7 @@
             "unit": "50g",
             "images": [
                 {
-                "url": "",
+                "url": "https://m.media-amazon.com/images/I/611E1ojIu2L.__AC_SX300_SY300_QL70_ML2_.jpg",
                 "alt": "Creme Facial Anti-Idade Nivea",
                 "width": 50,
                 "height": 50
@@ -255,7 +455,7 @@
             "unit": "4g",
             "images": [
                 {
-                "url": "",
+                "url": "https://a-static.mlcdn.com.br/1500x1500/batom-liquido-longa-duracao-maybelline-superstay-matte-ink-pink-edition/epocacosmeticos-integra/51683/f314eab738ef9ff5ccbb95b93861f3c2.jpeg",
                 "alt": "Batom Matte Maybelline",
                 "width": 50,
                 "height": 50
@@ -275,7 +475,7 @@
             "unit": "50ml",
             "images": [
                 {
-                "url": "",
+                "url": "https://images.tcdn.com.br/img/img_prod/611043/perfume_miss_dior_rose_n_roses_edt_100ml_feminino_christian_dior_3003_1_0ac3825c807734331b32b6300cf755f8.jpg",
                 "alt": "Perfume Feminino Dior",
                 "width": 50,
                 "height": 50
@@ -295,7 +495,7 @@
             "unit": "9ml",
             "images": [
                 {
-                "url": "",
+                "url": "https://a-static.mlcdn.com.br/1500x1500/mascara-para-cilios-l-oreal-paris-voluminous-original-preto-7ml/nocnoceua/aub004bcxef6/1dd1e01fd5d42043094f03adc21bee81.jpeg",
                 "alt": "Máscara de Cílios L'Oréal",
                 "width": 50,
                 "height": 50

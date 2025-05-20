@@ -1,0 +1,83 @@
+.card_container {
+    width: 190px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 1px solid gray;
+}
+
+.img_wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.img_wrapper > img {
+    width: 100%;
+    height: 100%;
+}
+
+.img_wrapper > button {
+    padding: 5px 5px 0px 5px;
+
+    font-size: 1.1em;
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.img_wrapper > button > svg {
+    fill: transparent;
+    stroke: red;
+    stroke-width: 50;
+}
+
+.info_product_container {
+    width: 100%;
+}
+
+.name_sold_container {
+    padding: 8px 0px 5px 10px;
+}
+
+.name_sold_container > p:first-child {
+    padding-bottom: 5px;
+    font-size: .8em;
+    color: rgb(52, 52, 52);
+}
+
+.name_sold_container > p:last-child {
+    letter-spacing: .5px;
+}
+
+.price {
+    padding-left: 10px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.btn {
+    margin: 0 auto;
+    padding: 8px 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+
+    cursor: pointer;
+    letter-spacing: .5px;
+
+    color: white;
+    background-color: black;
+}
+
+.btn > svg {
+    font-size: 1.5em;
+}
